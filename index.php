@@ -6,20 +6,21 @@
 		<title> Index Page </title>
 	</head>
 
-	<body> 
+	<body>
 		<header>
 			<img id="redseaLogo" alt="Logo RedSea" src="bilder/redsea_logo.png" height="100">
 		</header>
 
 		<main>
 			<div id="imagesText">
-				<center> 
-					<h1> Images: </h1> 
+				<center>
+					<h1> Images: </h1>
 				</center>
 			</div>
 
 			<div id ="uploadedFile">
 			<?php
+			// Test #1
 			// Pfade der Texte und Bilder
 			$pathFolder = "uploads/";
 			$textPathFolder = "";
@@ -31,10 +32,10 @@
 			sort($images);
 			$files = glob("" . $textExtension, GLOB_BRACE);
 
-			
+
 			// Startwert
 			$counter = 0;
-			// Zählt die Anzahl der Elemente (Anzahl der .txt files) des Arrays $files 
+			// Zählt die Anzahl der Elemente (Anzahl der .txt files) des Arrays $files
 			$filesLength = count($files);
 				// Darstellung der Bilder und Texte auf der Index-Page
 					while($counter < $filesLength) {
@@ -45,10 +46,9 @@
 							echo("</h4> </center>");
 						$counter++;
 					}
-				
+
 			?>
 			</div>
 		</main>
 	</body>
 </html>
-
