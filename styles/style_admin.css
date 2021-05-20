@@ -1,0 +1,63 @@
+body {
+    width: 1000px;
+    margin: auto;
+    background-color: #F8F8F8;
+}
+
+header {
+    padding: 10px;
+    height: 100px;
+    background-color: #E9173E;
+    border-radius: 10px;
+}
+
+main {
+    border: 5px solid #E9173E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#submitButton {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #E9173E;
+    background-color: #E9173E;
+    color: white;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.chooseFileButtonClass {
+    display: inline-block;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 9px;
+    border: 1px solid #E9173E;
+    background-color: #E9173E;
+    color: white;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    user-select: none;
+}
+
+textarea {
+    width: 35%;
+    resize: none;
+}

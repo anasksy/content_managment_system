@@ -1,0 +1,44 @@
+body {
+    width: 1000px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: auto;
+    background-color: #F8F8F8;
+}
+
+header {
+    padding: 10px;
+    height: 100px;
+    background-color: #E9173E;
+    border-radius: 10px;
+}
+
+main {
+    border: 5px solid #E9173E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+#imagesText {
+    border: 0.1px solid #E9173E;
+    border-radius: 10px;
+    width: 225px;
+    color: white;
+    background-color: #E9173E;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+#uploadedImages {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border: 5px solid #E9173E;
+    height: 144px;
+    width: 144px;
+}
