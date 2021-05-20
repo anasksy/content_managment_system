@@ -20,7 +20,7 @@
 
 			<div id ="uploadedFile">
 			<?php
-			// Test #1
+			// Test #2
 			// Pfade der Texte und Bilder
 			$pathFolder = "uploads/";
 			$textPathFolder = "";
