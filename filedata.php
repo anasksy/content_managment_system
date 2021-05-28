@@ -12,3 +12,5 @@ $fileData["textExtension"] = "*{txt}";
 // Prefix der hochgeladenen Dateien
 $fileData["prefix"] = "redcms_file";
 ?>
+
+

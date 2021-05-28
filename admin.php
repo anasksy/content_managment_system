@@ -15,7 +15,7 @@
 					<center>
 						<input id ="chooseFileButton" type="file" name="datei" id="datei">
 						<label for ="chooseFileButton" class="chooseFileButtonClass"> Datei auswählen </label> <br>
-						<textarea name="textFeld" id="textFeld" rows="4" cols="50" placeholder="Gebe eine Nachricht ein!"></textarea> <br>
+						<textarea name="textFeld" id="textFeld" rows="4" cols="50" placeholder="Gebe eine Nachricht ein!"></textarea><br>
 						<input id ="submitButton" type="submit" value="➤ Hochladen" name="submit">
 					</center>
 				</div>
@@ -23,3 +23,5 @@
 		</main>
 	</body>
 </html>
+
+

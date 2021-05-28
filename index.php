@@ -12,27 +12,31 @@
 			</a>
 		</header>
 		<main>
-			<div id="imagesText">
-				<center>
-					<h1> Images: </h1>
-				</center>
+			<div id="pageHeadline">
+				<h1> Images: </h1>	
 			</div>
 			<?php
 			include("filedata.php");
 			include("helper.php");
-
 			$images = getCmsImages($fileData);
 			sort($images);
-			
-			foreach($images as $index => $image){
-				$fileIndex = explode($fileData["prefix"] , explode(".", $image)[0])[1];
-				echo('<img id="uploadedImages" src="'.$image.'" >');
-				echo("<center> <h4>");
-				echo(file_get_contents($fileData["imageUploadPath"] .$fileData["prefix"] . $fileIndex . ".txt"));
-				echo("</h4> </center>");
+		
+			foreach($images as $image){
+				$fileNamePartsArray = explode(".", $image);
+				echo("<table> <tr>");
+				echo('<td> <img id="uploadedImages" src="'.$image.'" > </td>');
+				echo("<td><h4>");
+				echo("<div id='imageContent'>");
+				echo(file_get_contents($fileNamePartsArray[0] . ".txt"));
+				echo("</h4> </td> </div>");
+				echo("</tr> </table>");
 			}
 			?>
 		</main>
 	</body>
 </html>
+
+
+
+
 

@@ -23,7 +23,7 @@ main {
     background-color: white;
 }
 
-#imagesText {
+#pageHeadline {
     border: 0.1px solid #E9173E;
     border-radius: 10px;
     width: 225px;
@@ -37,8 +37,14 @@ main {
 #uploadedImages {
     display: block;
     margin: auto;
-    margin-top: 10px;
+   
     border: 5px solid #E9173E;
     height: 144px;
-    width: 144px;
+    width: 256px;
+}
+
+#imageContent {
+    border: 5px solid #E9173E;
+    height: 144px;
+  
 }

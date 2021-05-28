@@ -9,15 +9,6 @@ function getCmsImages($fileData){
 }
 
 /**
-* get a list of text files
-*
-* @return array
-**/
-function getCmsImageTexts($fileData){
-	return glob($fileData["textUpload"] . $fileData["textExtension"], GLOB_BRACE);
-}
-
-/**
 *
 *@return String
 */
