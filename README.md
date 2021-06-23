@@ -2,7 +2,7 @@
 
 ## About
 
-A website developed with html and php. It is an ongoing project where you can upload images which will be display one below the other. 
+A website developed with html and php. It is an project where you can upload images which will be display one below the other. 
 
 ## Credits
 
