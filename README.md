@@ -1,4 +1,4 @@
-# Content Managment System - REDSEA project (ongoing)
+# Content Managment System - REDSEA project (version 1.0.0)
 
 ## About
 
